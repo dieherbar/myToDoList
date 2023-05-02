@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Layout from "./components/Layout";
-import contacto from "..pages/contacto"
-import Error404 from "./error404";
+
 
 const Router = () => {
 
@@ -27,7 +25,7 @@ return (
 
 <Route index element={<Home />}></Route>
 
-<Route path="about" element={<about />}></Route>
+<Route path="/about" element={<aboutabc />}></Route>
 
 <Route path="contacto" element={<contacto />}></Route>
 

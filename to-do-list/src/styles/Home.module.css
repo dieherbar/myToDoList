@@ -1,9 +1,9 @@
 .main {
-  display: flex;
-  /*flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6rem;
   min-height: 100vh;
 }
 .navigation {
@@ -26,6 +26,10 @@
   display: block;
   padding: 8px;
 } 
+
+.containerError{
+  background-color: tomato;
+}
 
 .description {
   display: inherit;
